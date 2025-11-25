@@ -1,0 +1,169 @@
+/* GENEL AYARLAR VE TEMA RENKLERİ */
+body {
+    margin: 0;
+    font-family: 'Times New Roman', serif; 
+    background-color: #1C1917; 
+    color: #D9CFC4; 
+    min-height: 100vh;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.ana-konteyner {
+    display: flex;
+    min-height: 100vh; 
+}
+
+
+.sol-menu {
+    width: 250px; 
+    background-color: #2A2522;
+    padding: 10px 0;
+    
+    position: fixed; 
+    height: 100%;
+    overflow-y: auto; 
+    border-right: 1px solid #3A3532; 
+}
+
+.sol-menu .logo {
+    font-size: 1.6em;
+    font-weight: bold;
+    padding: 20px;
+    color: #EBE0D9; 
+    letter-spacing: 1px;
+}
+
+.sol-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sol-menu li {
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.sol-menu li:hover {
+    background-color: #3A3532;
+}
+
+.sol-menu li a {
+    text-decoration: none; 
+    color: inherit; 
+    display: block; 
+    font-size: 1.1em;
+}
+
+.muzik-alani {
+    padding: 15px 20px;
+    margin-top: 20px; 
+    border-top: 1px solid #3A3532; 
+    text-align: center; 
+}
+
+.muzik-baslik {
+    font-size: 0.9em;
+    color: #8B7B6E; 
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.muzik-kapak {
+    width: 100%;
+    max-width: 180px; 
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.sag-icerik {
+    margin-left: 250px; 
+    flex-grow: 1; 
+    padding: 40px 20px;
+}
+
+
+.icerik-ortala {
+    max-width: 750px; 
+    margin: 0 auto; 
+}
+
+
+.resim-konteyner {
+    width: 100%; 
+    text-align: center; 
+    margin-bottom: 50px; 
+    overflow: hidden; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); 
+}
+
+.ust-resim {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.ayirici {
+    border: 0;
+    height: 1px;
+    background-color: #3A3532; 
+    margin: 40px 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.bolum .baslik {
+    color: #EBE0D9; 
+    text-align: left;
+    font-size: 2.2em;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+.bolum {
+    padding-top: 50px; 
+    margin-top: -50px;
+}
+.son-bolum {
+    margin-bottom: 200px; 
+}
+
+
+#baglantilar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#baglantilar li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+#baglantilar a {
+    color: #8B7B6E; 
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+#baglantilar a:hover {
+    color: #EBE0D9; 
+}
+
+.muzik-alani .sarki-adi {
+    font-size: 0.95em;
+    color: #D9CFC4; 
+    margin-top: 8px;
+    margin-bottom: 0;
+}
